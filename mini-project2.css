@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+
+}
+
+.headSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.leftHead {
+  margin-left: 100px;
+  width: 400px;
+}
+
+header {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.NavSection {
+  display: flex;
+  margin-right: 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+  margin-left: 50px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:700;
+  font-size: 13px;
+}
+
+span {
+  background-color: crimson;
+  color: white;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.mainSection {
+  background-image: url(/wallpaper-g5389bfb32_1920.jpg);
+  background-size: cover;
+  height: 800px;
+  display: flex;
+}
+
+p {
+  width: 300px;
+}
+
+.leftMain {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-top: 250px;
+  padding-left: 400px;
+}
+
+.solution {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: brown;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.Designer {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  color: purple;
+  line-height: 50px;
+}
+
+.lorem {
+  margin-top: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-top: 10px;
+  display: flex;
+}
+
+.learnButton, .hireButton {
+  display: flexbox
+  width: 100px;
+  margin-right: 10px
+}
+
+.learnButton {
+  background-color: red;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid 1px;
+  border-color: red;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hireButton {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: transparent;
+  color: black;
+  border: solid 0.5px;
+  border-color: brown;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.rightMain {
+  display: flex;
+}
+
+.image1 {
+  height: 500px;
+  object-position: right;
+  margin-top: 150px;
+  margin-left: 400px;
+}
+
+.footSection {
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center
+}
+
+.article1 {
+  width: 300px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.article2 {
+  width: 280px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 31px;
+  font-weight: bold;
+}
+
